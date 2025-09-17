@@ -70,5 +70,14 @@
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:405706822415:task-definition/webapp-devops-workshop:1",
     "taskRoleArn": "arn:aws:iam::405706822415:role/devops-cluster-TaskRole-k1mlTwMa5cQ9",
     "volumes": [],
-    "tags": []
+    "tags": [
+        {
+            "key": "Environment",
+            "value": "dev"
+        },
+        {
+            "key": "Project", 
+            "value": "devops-workshop"
+        }
+    ]
 }
